@@ -1,0 +1,5 @@
+node_modules/
+.env
+.expo/
+server/node_modules/
+mobile/node_modules/

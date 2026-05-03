@@ -1,0 +1,22 @@
+{
+  "name": "tripwise-server",
+  "version": "1.0.0",
+  "description": "TripWise AI Backend - Ollama Budget & Itinerary Engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8",
+    "ollama": "^0.5.16",
+    "@anthropic-ai/sdk": "^0.27.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
