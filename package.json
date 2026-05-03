@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "server"
+  ],
+  "scripts": {
+    "start:mobile": "cd mobile && expo start",
+    "start:server": "cd server && node src/index.js",
+    "build:mobile": "cd mobile && eas build",
+    "build:server": "cd server && node src/index.js"
+  }
+}
