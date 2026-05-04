@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Travel Guide",
+    "slug": "travelguide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./mobile/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "travelguide",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./mobile/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1426"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tripwise.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./mobile/assets/adaptive-icon.png",
+        "backgroundColor": "#0B1426"
+      },
+      "package": "com.tripwise.app",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./mobile/assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "TripWise uses your location to auto-detect your city and suggest nearby destinations.",
+          "locationWhenInUsePermission": "TripWise uses your location to auto-detect your city and suggest nearby destinations.",
+          "isIosBackgroundLocationEnabled": false
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7fb94460-b0e6-4495-8b4d-9e9dd99574fd"
+      }
+    }
+  }
+}
