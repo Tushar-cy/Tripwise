@@ -8,6 +8,8 @@
     "start:mobile": "cd mobile && expo start",
     "start:server": "cd server && node src/index.js",
     "build:mobile": "cd mobile && eas build",
-    "build:server": "cd server && node src/index.js"
+    "build:server": "cd server && node src/index.js",
+    "prebuild:mobile": "cd mobile && npm install",
+    "setup": "npm install && cd mobile && npm install"
   }
 }
