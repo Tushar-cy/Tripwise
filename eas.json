@@ -7,6 +7,9 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
       "env": {
         "EXPO_PROJECT_ROOT": "./mobile",
         "JAVA_OPTS": "-Xmx4096m"
@@ -14,6 +17,9 @@
     },
     "preview": {
       "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
       "env": {
         "EXPO_PROJECT_ROOT": "./mobile",
         "JAVA_OPTS": "-Xmx4096m"
@@ -21,6 +27,9 @@
     },
     "production": {
       "autoIncrement": true,
+      "android": {
+        "buildType": "aab"
+      },
       "env": {
         "EXPO_PROJECT_ROOT": "./mobile",
         "JAVA_OPTS": "-Xmx4096m"
