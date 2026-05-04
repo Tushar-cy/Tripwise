@@ -5,26 +5,17 @@
   },
   "build": {
     "development": {
-      "projectRoot": "./mobile",
+      "projectRoot": "mobile",
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "projectRoot": "./mobile",
-      "distribution": "internal",
-      "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
-      }
+      "projectRoot": "mobile",
+      "distribution": "internal"
     },
     "production": {
-      "projectRoot": "./mobile",
-      "autoIncrement": true,
-      "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
-      }
+      "projectRoot": "mobile",
+      "autoIncrement": true
     }
   },
   "submit": {
