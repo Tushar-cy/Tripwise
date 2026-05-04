@@ -4,12 +4,12 @@
     "slug": "travelguide",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./mobile/assets/icon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "scheme": "travelguide",
     "newArchEnabled": false,
     "splash": {
-      "image": "./mobile/assets/splash-icon.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#0B1426"
     },
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./mobile/assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0B1426"
       },
       "package": "com.tripwise.app",
@@ -30,7 +30,7 @@
       ]
     },
     "web": {
-      "favicon": "./mobile/assets/favicon.png",
+      "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
     "plugins": [
