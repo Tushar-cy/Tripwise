@@ -13,7 +13,7 @@
     "@expo-google-fonts/nunito": "^0.3.0",
     "@expo/vector-icons": "^15.0.3",
     "@react-native-async-storage/async-storage": "2.2.0",
-    "@react-native-community/datetimepicker": "^8.4.4",
+    "@react-native-community/datetimepicker": "8.4.4",
     "@react-navigation/native": "^7.0.14",
     "@supabase/supabase-js": "^2.49.4",
     "@tanstack/react-query": "^5.62.8",
@@ -35,7 +35,7 @@
     "react-native-reanimated": "~4.1.1",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
-    "react-native-worklets": "^0.5.1",
+    "react-native-worklets": "0.5.1",
     "zustand": "^5.0.2"
   },
   "devDependencies": {

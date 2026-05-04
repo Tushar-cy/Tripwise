@@ -12,7 +12,10 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "JAVA_OPTS": "-Xmx4096m"
+      }
     }
   },
   "submit": {
