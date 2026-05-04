@@ -5,6 +5,7 @@
   },
   "build": {
     "development": {
+      "projectRoot": "mobile",
       "developmentClient": true,
       "distribution": "internal",
       "env": {
@@ -12,12 +13,14 @@
       }
     },
     "preview": {
+      "projectRoot": "mobile",
       "distribution": "internal",
       "env": {
         "EXPO_PROJECT_ROOT": "mobile"
       }
     },
     "production": {
+      "projectRoot": "mobile",
       "autoIncrement": true,
       "env": {
         "EXPO_PROJECT_ROOT": "mobile"
