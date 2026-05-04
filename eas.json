@@ -8,19 +8,22 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
+        "EXPO_PROJECT_ROOT": "./mobile",
+        "JAVA_OPTS": "-Xmx4096m"
       }
     },
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
+        "EXPO_PROJECT_ROOT": "./mobile",
+        "JAVA_OPTS": "-Xmx4096m"
       }
     },
     "production": {
       "autoIncrement": true,
       "env": {
-        "EXPO_PROJECT_ROOT": "./mobile"
+        "EXPO_PROJECT_ROOT": "./mobile",
+        "JAVA_OPTS": "-Xmx4096m"
       }
     }
   },
